@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>天的空间 - 个人博客</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Overlay -->
+    <div id="loading-overlay" class="loading-overlay">
+        <div class="loading-content">
+            <h2>天的空间</h2>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h2>天的空间</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#about">个人介绍</a></li>
+                <li><a href="#gallery">摄影分享</a></li>
+                <li><a href="#thoughts">天马行空</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <!-- 墨汁晕开效果 -->
+        <div class="ink-effect"></div>
+        <div class="hero-content">
+            <h1>天的空间</h1>
+            <p>探索创意与生活的边界</p>
+        </div>
+    </section>
+
+    <!-- 个人介绍 Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">个人介绍</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-container">
+                        <img src="profile.jpg" alt="个人形象">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>关于我</h3>
+                    <p>我是付昊天，欢迎来到我的个人空间。做这个网站的目的是想学习一点新东西，也可以当作个人简历，还可以分享美好瞬间和一些思考。</p>
+                    <div class="bio-details">
+                        <p>会用 Python 做深度学习、 SolidWorks 搞有限元分析，也能玩转 Photoshop 做商用设计、 Pr 剪宣传视频；懂项目管理、能源工程的专业逻辑，也通营销策划、客户维护的市场规则。雅思 6.5 的语言加持，加上国家级赛事的实战打磨，既当技术派，也做行动家，在工程与多元领域里持续探索无边界～</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- 时间轴 -->
+            <div class="timeline-container">
+                <h3 class="timeline-title">我的经历</h3>
+                <div class="timeline">
+                    <!-- 教育经历 -->
+                    <div class="timeline-section">
+                        <h4 class="timeline-subtitle">教育经历</h4>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-date">2022 - 2024</div>
+                                <h5 class="timeline-institution">香港城市大学（<span class="special-text">2023</span><span class="special-text">QS</span>世界大学排名<span class="special-text">54</span>）</h5>
+                                <div class="timeline-degree">工程管理   硕士   GPA 3.75/4.3</div>
+                                <p class="timeline-description">”优秀毕业生“  “香港机场噪声监测项目负责人”  “羽球爱好者”  “深水埗老吃家”</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-date">2017 - 2021</div>
+                                <h5 class="timeline-institution">中国农业大学（<span class="special-text">985</span>高校）</h5>
+                                <div class="timeline-degree">机械设计制造及其自动化 & 工商管理   双学位学士   GPA 90.56/100</div>
+                                <p class="timeline-description">“优秀毕业论文”  “国家级比赛特等奖”  “驾游全国老司机“  “校园工作室创始人”</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 工作经历 -->
+                    <div class="timeline-section">
+                        <h4 class="timeline-subtitle">工作经历</h4>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-date">2024 - 至今</div>
+                                <h5 class="timeline-institution">中石化炼化工程（集团）股份有限公司</h5>
+                                <div class="timeline-position">安全管理岗  助理工程师</div>
+                                <p class="timeline-description">安全风险管理  HSE体系管理  年度工作策划  专项安全检查等</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-date">2023 - 2023</div>
+                                <h5 class="timeline-institution">中化商务有限公司</h5>
+                                <div class="timeline-position">项目助理  （实习）</div>
+                                <p class="timeline-description">对接B端招采需求  编制招投标文件  组织实施招评标会议等</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-date">2017 - 至今</div>
+                                <h5 class="timeline-institution">在各行各业都有尝试的经历</h5>
+                                <div class="timeline-position">K12老师、车厂工艺师、计划工程师、滴滴司机、商业摄影师等</div>
+                                <p class="timeline-description">尝试不同的职业能给人生带来更开阔的视野，或许就能找到自己的方向</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 摄影分享 Section -->
+    <section id="gallery" class="section">
+        <div class="container">
+            <h2 class="section-title">摄影分享</h2>
+            <p class="section-subtitle">通过镜头捕捉世界之美</p>
+            <div class="gallery-filters">
+                <button type="button" class="filter-btn active" data-filter="all">全部</button>
+                <button type="button" class="filter-btn" data-filter="nature">自然</button>
+                <button type="button" class="filter-btn" data-filter="urban">城市</button>
+                <button type="button" class="filter-btn" data-filter="portrait">人像</button>
+                <button type="button" class="filter-btn" data-filter="abstract">抽象</button>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="nature">
+                    <div class="gallery-img">
+                        <img src="images/nature1.jpg" alt="自然风光">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h4>自然之美</h4>
+                                <p>山川湖海，万物生灵</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="urban">
+                    <div class="gallery-img">
+                        <img src="images/urban1.jpg" alt="城市建筑">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h4>都市韵律</h4>
+                                <p>现代建筑，城市节奏</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="portrait">
+                    <div class="gallery-img">
+                        <img src="images/portrait1.jpg" alt="人像摄影">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h4>人物肖像</h4>
+                                <p>情感瞬间，人物故事</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="abstract">
+                    <div class="gallery-img">
+                        <img src="images/abstract1.jpg" alt="抽象艺术">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h4>抽象视界</h4>
+                                <p>色彩与形状的对话</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="nature">
+                    <div class="gallery-img">
+                        <img src="images/nature2.jpg" alt="自然生态">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h4>生态之美</h4>
+                                <p>生命的力量与和谐</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="urban">
+                    <div class="gallery-img">
+                        <img src="images/urban2.jpg" alt="街景人文">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h4>街头纪实</h4>
+                                <p>城市生活的瞬间</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 天马行空 Section -->
+    <section id="thoughts" class="section">
+        <div class="container">
+            <h2 class="section-title">天马行空</h2>
+            <p class="section-subtitle">思想的自由飞翔</p>
+            <div class="thoughts-grid">
+                <article class="thought-card">
+                    <div class="thought-img">
+                        <img src="https://picsum.photos/400/200?random=1" alt="思考的力量">
+                    </div>
+                    <div class="thought-content">
+                        <span class="thought-category">思考随笔</span>
+                        <h3>思考的力量</h3>
+                        <p class="date">2025年11月</p>
+                        <p>在快节奏的生活中，思考成为我们与内心对话的珍贵时刻。每一次深思都是一次成长的机会，让我们更好地理解自己和世界。</p>
+                        <a href="#" class="read-more">阅读更多</a>
+                    </div>
+                </article>
+                <article class="thought-card">
+                    <div class="thought-img">
+                        <img src="https://picsum.photos/400/200?random=2" alt="创作的源泉">
+                    </div>
+                    <div class="thought-content">
+                        <span class="thought-category">创作心得</span>
+                        <h3>创作的源泉</h3>
+                        <p class="date">2025年10月</p>
+                        <p>灵感无处不在，关键在于我们是否保持一颗敏感的心。生活中的每一个细节都可能成为创作的火花，激发我们无限的创造力。</p>
+                        <a href="#" class="read-more">阅读更多</a>
+                    </div>
+                </article>
+                <article class="thought-card">
+                    <div class="thought-img">
+                        <img src="https://picsum.photos/400/200?random=3" alt="美与生活">
+                    </div>
+                    <div class="thought-content">
+                        <span class="thought-category">美学感悟</span>
+                        <h3>美与生活</h3>
+                        <p class="date">2025年9月</p>
+                        <p>美并不仅存在于艺术作品中，它更广泛地存在于我们的日常生活中，等待着我们去发现和感受。每一个平凡的日子都蕴含着不凡的美。</p>
+                        <a href="#" class="read-more">阅读更多</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-copyright">
+                    <p>&copy; 2025 天的空间. 保留所有权利.</p>
+                </div>
+                <div class="footer-contact">
+                    <p>联系我: <a href="mailto:fu_haotian@126.com" class="footer-email">fu_haotian@126.com</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 全屏图片查看器 -->
+    <div class="fullscreen-viewer" id="fullscreenViewer">
+        <div class="fullscreen-overlay" id="fullscreenOverlay"></div>
+        <div class="fullscreen-content">
+            <button class="fullscreen-close" id="fullscreenClose">&times;</button>
+            <button class="fullscreen-nav fullscreen-prev" id="fullscreenPrev">&lsaquo;</button>
+            <button class="fullscreen-nav fullscreen-next" id="fullscreenNext">&rsaquo;</button>
+            <img src="" alt="Fullscreen Image" class="fullscreen-image" id="fullscreenImage">
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
